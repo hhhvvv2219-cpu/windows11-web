@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Windows 11 — Web Simulation</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="desktop">
+  <div id="icons"></div>
+  <div id="windows-layer"></div>
+  <div id="start-menu" class="hidden">
+    <div class="sm-search"><input placeholder="Поиск"></div>
+    <div class="sm-pinned" id="sm-pinned"></div>
+    <div class="sm-footer"><div class="sm-user"><span class="avatar">U</span> Пользователь</div><button id="power-btn" title="Питание">&#x23FB;</button></div>
+  </div>
+  <div id="taskbar">
+    <div id="tb-left"></div>
+    <div id="tb-center"></div>
+    <div id="tb-right"><div id="tray-clock"></div></div>
+  </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
